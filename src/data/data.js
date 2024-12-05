@@ -55,7 +55,7 @@ export const crew = [
     bio: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
   },
 ];
-// 
+
 export const technology = [
   {
     name: "Launch vehicle",
