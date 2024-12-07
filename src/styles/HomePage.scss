@@ -1,0 +1,245 @@
+@use "./variables" as h;
+
+.home {
+  .container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  h5 {
+    font-family: h.$BarlowCondensed;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.27rem;
+    color: h.$blue;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+
+  h1 {
+    font-family: h.$Bellefair;
+    font-size: 8rem;
+    line-height: 10rem;
+    color: h.$white;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: h.$Barlow;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: h.$blue;
+  }
+}
+
+.circle-box {
+ width: 45rem;
+ height: 45rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.top, .bottom {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.top {
+  background-color: #fff;
+
+  h2 {
+    font-family: h.$Bellefair;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: h.$black;
+  }
+}
+
+.bottom {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.bottom:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (width >= 201px) and (width <= 500px)  {
+  .home {
+    padding-top: 8rem;
+    
+    .container {
+      gap: 8rem;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .home-text {
+    gap: 1.6rem;
+    text-align: center;
+
+    h5 {
+      font-size: 1.6rem;
+      letter-spacing: 0.7rem;
+    }
+
+    h1 {
+      font-size: 8rem;
+      line-height: 10rem;
+    }
+  }
+
+  .circle-box {
+    width: 25rem;
+    height: 25rem;
+    margin-bottom: 5rem;
+  }
+
+  .bottom {
+    width: 15rem;
+    height: 15rem;
+
+    &:hover {
+      width: 25rem;
+      height: 25rem;
+    }
+  }
+
+  .top {
+    width: 15rem;
+    height: 15rem;
+    h2 {
+      font-size: 2rem;
+      letter-spacing: 0.125rem;
+    }
+  }
+}
+
+@media (width >= 501px) and (width <= 1023px) {
+  .home {
+    padding-top: 10rem;
+
+    .container {
+      gap: 8rem;
+      flex-direction: column;
+    }
+  }
+
+  .home-text {
+    gap: 2.4rem;
+    text-align: center;
+
+    h5 {
+      font-size: 2rem;
+      letter-spacing: 0.336rem;
+    }
+
+    h1 {
+      font-size: 15rem;
+      line-height: 15rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 2.8rem;
+    }
+  }
+
+  .circle-box {
+    width: 40rem;
+    height: 40rem;
+    margin-bottom: 3rem;
+  }
+
+  .top {
+    width: 24rem;
+    height: 24rem;
+    h2 {
+      font-size: 3.2rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  .bottom {
+    width: 24rem;
+    height: 24rem;
+
+    &:hover {
+      width: 40rem;
+      height: 40rem;
+    }
+  }
+}
+
+@media (width >= 1024px) {
+  .home {
+    .container {
+      justify-content: space-between;
+    }
+  }
+
+  .home-text {
+    width: 45rem;
+    gap: 2.3rem;
+
+    h5 {
+      font-size: 2.8rem;
+      line-height: 3.4rem;
+      letter-spacing: 0.475rem;
+    }
+
+    h1 {
+      font-size: 15rem;
+      line-height: 15rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+    }
+  }
+
+  .circle-box {
+    width: 45rem;
+    height: 45rem;
+  }
+
+  .bottom {
+    width: 27rem;
+    height: 27rem;
+
+    &:hover {
+      width: 45rem;
+      height: 45rem;
+    }
+  }
+
+  .top {
+    width: 27rem;
+    height: 27rem;
+    
+    h2 {
+      font-size: 3.2rem;
+      line-height: 3.7rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+}
