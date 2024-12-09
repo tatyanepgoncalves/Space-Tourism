@@ -23,7 +23,6 @@
     font-weight: 400;
   }
 
-
   h1 {
     font-family: h.$Bellefair;
     font-size: 8rem;
@@ -42,21 +41,20 @@
 }
 
 .circle-box {
- width: 45rem;
- height: 45rem;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.top, .bottom {
-  border-radius: 50%;
+  width: 45rem;
+  height: 45rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
+.top,
+.bottom {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .top {
   background-color: #fff;
@@ -81,10 +79,8 @@
   justify-content: center;
 }
 
-@media (width >= 201px) and (width <= 500px)  {
+@media (width >= 201px) and (width <= 500px) {
   .home {
-    padding-top: 8rem;
-    
     .container {
       gap: 8rem;
       flex-direction: column;
@@ -135,8 +131,6 @@
 
 @media (width >= 501px) and (width <= 1023px) {
   .home {
-    padding-top: 10rem;
-
     .container {
       gap: 8rem;
       flex-direction: column;
@@ -235,7 +229,7 @@
   .top {
     width: 27rem;
     height: 27rem;
-    
+
     h2 {
       font-size: 3.2rem;
       line-height: 3.7rem;
