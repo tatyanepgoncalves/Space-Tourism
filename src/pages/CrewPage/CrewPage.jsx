@@ -43,7 +43,7 @@ export default function CrewPage() {
   const selectedData = crewData.find((crew) => crew.name === selectedCrew);
 
   return (
-    <main className="crew">
+    <main className="page crew">
       <div className="content">
         <section className="title-page">
           <span>02</span>
