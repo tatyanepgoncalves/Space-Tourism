@@ -10,7 +10,7 @@ import SpaceCapsulePortrait from "../../assets/images/technology/image-space-cap
 import "../../styles/TechnologyPage.scss";
 
 const technologyData = [
-  { 
+  {
     id: 1,
     name: "Launch vehicle",
     images: {
@@ -65,25 +65,39 @@ export default function TechnologyPage() {
         {selectedData && (
           <section className="tech-items">
             <section className="tech-image">
-              <img src={selectedData.images.portrait} alt={selectedData.name} className="portrait" />
-              <img src={selectedData.images.landscape} alt={selectedData.name} className="landscape" />
+              <img
+                src={selectedData.images.portrait}
+                alt={selectedData.name}
+                className="portrait"
+              />
+              <img
+                src={selectedData.images.landscape}
+                alt={selectedData.name}
+                className="landscape"
+              />
             </section>
 
             <section className="tech-text-menu">
               <nav className="menu-tech">
                 <ul>
                   {technologyData.map((tech) => (
-                    <li key={tech.name} onClick={() => handleTechClick(tech.name)} className={tech.name === selectedTechnology ? "active" : ""}
-                    >{tech.id}</li>
+                    <li
+                      key={tech.name}
+                      onClick={() => handleTechClick(tech.name)}
+                      className={
+                        tech.name === selectedTechnology ? "active" : ""
+                      }
+                    >
+                      {tech.id}
+                    </li>
                   ))}
                 </ul>
               </nav>
 
               <section className="tech-text">
                 <div className="id">
-                <span>THE TERMINOLOGY…</span>
-                <h2>{selectedData.name}</h2>
-
+                  <span>THE TERMINOLOGY…</span>
+                  <h2>{selectedData.name}</h2>
                 </div>
                 <p>{selectedData.description}</p>
               </section>
