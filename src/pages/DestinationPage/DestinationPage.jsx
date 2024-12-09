@@ -54,7 +54,7 @@ export default function DestinationPage() {
   );
 
   return (
-    <main className="destination">
+    <main className="page destination">
       <div className="content">
         <section className="title-page">
           <span>01</span>
