@@ -14,8 +14,8 @@ Desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/space-tour
 
 ## 🔗 Links
 - **Repositório com código fonte** - [Clique aqui](https://github.com/tatyanepgoncalves/Space-Tourism)
-- **Deploy** - [Clique aqui]()
-- **Design no Figma** - [Clique aqui]()
+- **Deploy** - [Clique aqui](https://space-tourism-project-fem.vercel.app/)
+- **Design no Figma** - [Clique aqui](https://www.figma.com/design/MxSI5ODDY9EtIEKBTf73xE/space-tourism-website?node-id=0-1&t=fjala8IHXLmF1Hte-1)
 - **Página do desafio** - [Clique aqui](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
 
 ## 💻 Tecnologias usadas
