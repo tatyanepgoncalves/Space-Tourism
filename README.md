@@ -27,7 +27,7 @@ Desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/space-tour
 - HTML
 
 ## 👩‍💻 Autores
-**Tatyane Gonçalves** - *Desenvolvedora Frontend* - [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
+- **Tatyane Gonçalves** - *Desenvolvedora Frontend* - [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
 - **Frontend Mentor** - *Site do desafio* - [/frontendmentor.io](https://www.frontendmentor.io)
 
 ## ⭐ Expressões de gratidão
