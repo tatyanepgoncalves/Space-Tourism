@@ -2,7 +2,7 @@ import "../../styles/HomePage.scss";
 
 export default function HomePage() {
   return (
-    <main className="home">
+    <main className="page home">
       <div className="container">
         <section className="home-text">
           <h5>So, you want to travel to</h5>
