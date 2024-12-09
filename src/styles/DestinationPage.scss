@@ -1,5 +1,13 @@
 @use "./variables" as d;
 
+.destination {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+}
+
 .destination-items {
   display: flex;
   align-items: center;
