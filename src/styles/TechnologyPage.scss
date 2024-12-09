@@ -1,5 +1,11 @@
 @use "./variables" as t;
 
+.technology {
+  .content {
+    display: flex;
+  }
+}
+
 .tech-items {
   display: flex;
   flex-direction: column;
@@ -97,6 +103,114 @@ img {
       h2 {
         font-size: 2.4rem;
         line-height: 2.8rem;
+      }
+    }
+  }
+}
+
+@media (width >= 501px) and (width <= 1023px) {
+  .technology {
+    .content {
+      gap: 6rem;
+    }
+  }
+  .tech-items {
+    gap: 5.6rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tech-image {
+    .portrait {
+      display: none;
+    }
+  }
+
+  .tech-text-menu {
+    gap: 4.4rem;
+  }
+
+  .menu-tech {
+    ul {
+      gap: 1.6rem;
+      justify-content: center;
+      li {
+        width: 6rem;
+        height: 6rem;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.15rem;
+      }
+    }
+  }
+
+  .tech-text {
+    gap: 1.6rem;
+
+    .id {
+      gap: 1.6rem;
+    }
+
+    span {
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+      line-height: 4.6rem;
+    }
+  }
+}
+
+@media (width >= 1024px) {
+  .tech-items {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tech-image {
+    .landscape {
+      display: none;
+    }
+  }
+
+  .tech-text-menu {
+    gap: 8rem;
+    flex-direction: row;
+    width: 64rem;
+  }
+  
+  .menu-tech {
+    ul {
+      flex-direction: column;
+      gap: 3.2rem;
+      
+      li {
+        width: 8rem;
+        height: 8rem;
+        font-size: 3.2rem;
+        line-height: 3.7rem;        
+        letter-spacing: 0.2rem;
+      }
+    }
+  }
+
+  .tech-text {
+    gap: 1.4rem;
+
+    .id {
+      span {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.27rem;
+      }
+
+      h2 {
+        font-size: 5.6rem;
+        line-height: 6.4rem;
       }
     }
   }
