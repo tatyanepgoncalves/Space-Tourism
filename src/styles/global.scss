@@ -19,7 +19,7 @@ body {
   background-color: #0d0d17;
 }
 
-main {
+main, .page {
   background-color: #000;
   display: flex;
   align-items: center;
@@ -31,7 +31,6 @@ main {
 
   .content {
     width: 90%;
-    border: 1px solid #fff;
     max-width: 90%;
   }
 }
@@ -77,7 +76,7 @@ p {
 }
 
 @media (width >= 201px) and (width <= 500px) {
-  main {
+  .page	 {
     padding-top: 8rem;
     padding-bottom: 3rem;
 
@@ -114,7 +113,7 @@ p {
 
 
 @media (width >= 501px) and (width <= 1023px) {
-  main {
+  .page {
     padding-top: 10rem;
 
     .content {
@@ -155,10 +154,11 @@ p {
 }
 
 @media (width >= 1024px) {
-  main {
-    padding-top: 3rem;
+  .page {
+    padding-top: 10rem;
     .content {
       flex-direction: column;
+      gap: 4rem;
     }
   }
   main.home {
